@@ -30,6 +30,7 @@ var Commands = []commands.Command{
 	&commands.MtaOperationsCommand{},
 	&commands.PurgeConfigCommand{},
 	commands.NewKubernetesDeployCommand(),
+	commands.NewKubernetesUndeployCommand(),
 }
 
 // Run runs this plugin
